@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>THE PEEL LAB</title>
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+  <header>
+    <h1>THE PEEL LAB</h1>
+    <nav>
+      <ul>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#cuestionario">Tu fórmula</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h2>Exfoliantes naturales y personalizados</h2>
+    <p>Descubre el poder de la naturaleza en tu piel.</p>
+  </section>
+
+  <section id="productos">
+    <h2>Nuestros exfoliantes</h2>
+
+    <div class="producto">
+      <h3>Mimos de Coco</h3>
+      <img src="mimos.jpg" alt="Mimos de Coco" />
+      <p><strong>Ingredientes:</strong> Café seco y aceite de coco (anticelulítico)</p>
+      <p><strong>Precio:</strong> $28.000 COP</p>
+    </div>
+
+    <div class="producto">
+      <h3>Tarde de Toronja</h3>
+      <img src="toronja.jpg" alt="Tarde de Toronja" />
+      <p><strong>Ingredientes:</strong> Azúcar, aceite de oliva y cáscara de naranja seca</p>
+      <p><strong>Precio:</strong> $26.000 COP</p>
+    </div>
+
+    <div class="producto">
+      <h3>Abrazo de Azúcar</h3>
+      <img src="azucar.jpg" alt="Abrazo de Azúcar" />
+      <p><strong>Ingredientes:</strong> Azúcar, jengibre seco y aceite de girasol</p>
+      <p><strong>Precio:</strong> $25.000 COP</p>
+    </div>
+
+    <div class="producto">
+      <h3>Spa del Bosque</h3>
+      <img src="bosque.jpg" alt="Spa del Bosque" />
+      <p><strong>Ingredientes:</strong> Azúcar, cacao y aceite de aguacate</p>
+      <p><strong>Precio:</strong> $27.000 COP</p>
+    </div>
+  </section>
+
+  <section id="cuestionario">
+    <h2>Tu fórmula personalizada</h2>
+    <form id="formulario">
+      <label for="piel">¿Cuál es tu tipo de piel?</label>
+      <select id="piel" name="piel">
+        <option value="seca">Seca</option>
+        <option value="grasa">Grasa</option>
+        <option value="mixta">Mixta</option>
+        <option value="sensible">Sensible</option>
+      </select>
+
+      <label for="clima">¿En qué clima vives?</label>
+      <select id="clima" name="clima">
+        <option value="calido">Cálido</option>
+        <option value="frio">Frío</option>
+        <option value="humedo">Húmedo</option>
+        <option value="seco">Seco</option>
+      </select>
+
+      <button type="submit">Ver recomendación</button>
+    </form>
+
+    <div id="recomendacion"></div>
+  </section>
+
+  <section id="nosotros">
+    <h2>Sobre THE PEEL LAB</h2>
+    <p><strong>Objetivo:</strong> Brindar exfoliantes naturales y artesanales de alta calidad que mejoren la salud y apariencia de la piel.</p>
+    <p><strong>💖 Misión:</strong> Cuidar la piel de manera natural y personalizada, utilizando ingredientes orgánicos y sostenibles.</p>
+    <p><strong>🌈 Visión:</strong> Ser una marca reconocida en Colombia por su tecnología personalizada y cuidado consciente.</p>
+  </section>
+
+  <section id="contacto">
+    <h2>Contáctanos</h2>
+    <p><strong>Teléfono:</strong> +57 311 7562600</p>
+    <p><strong>Email:</strong> thepeellab@gmail.com</p>
+    <p><strong>Instagram:</strong> <a href="https://instagram.com/thepeellab_">@thepeellab_</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 THE PEEL LAB. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
